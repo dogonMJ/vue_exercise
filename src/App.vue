@@ -1,24 +1,58 @@
 <template>
   <div id="app">
     <div class="cell cell-map">
-      <MapContainer></MapContainer>
+      <MapContainer :layerP="layerP"></MapContainer>
     </div>
-    <div class="cell cell-edit">Edit</div>
+    <div class="cell cell-edit">
+      Edit<br />
+      <Editor :layerP="layerP"></Editor>
+    </div>
     <div class="cell cell-inspect">
       Inspect<br />
-      <inspect></inspect>
+      <Inspect></Inspect>
     </div>
   </div>
 </template>
 
 <script>
 import MapContainer from "./components/container.vue";
-import inspect from "./components/inspect.vue";
+import Inspect from "./components/inspect.vue";
+import Editor from "./components/editor.vue";
+import TileLayer from "ol/layer/Tile";
+import OSM from "ol/source/OSM";
+import XYZ from "ol/source/XYZ";
+import { BingMaps } from "ol/source";
 export default {
   name: "App",
   components: {
     MapContainer,
-    inspect,
+    Inspect,
+    Editor,
+  },
+  data() {
+    return {
+      layerP: [
+        new TileLayer({
+          name: "OpenStreetMap",
+          source: new OSM(),
+        }),
+        new TileLayer({
+          name: "魯地圖",
+          opacity: 0.5,
+          source: new XYZ({
+            url: "https://rs.happyman.idv.tw/map/moi_osm/{z}/{x}/{y}.png",
+          }),
+        }),
+        new TileLayer({
+          name: "BingMap",
+          source: new BingMaps({
+            imagerySet: "Aerial",
+            key:
+              "AtxhFL61gkrGg34Rd6hUnrZbAYu3s_fpbocD79mi7w3YEWzY0SoK2wD0HJJlgg4I",
+          }),
+        }),
+      ],
+    };
   },
 };
 </script>
