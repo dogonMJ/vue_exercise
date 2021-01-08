@@ -13,7 +13,11 @@
   </select>
   <div>{{ coord }}</div>
   <div v-for="(item, i) in checklist" :key="item">
-    <input type="checkbox" v-model="item.state" />
+    <input
+      type="checkbox"
+      @click="checkClick(i)"
+      v-model="checklist[i].state"
+    />
     <label> {{ item.name }} </label>
     <br />
     Opacity <input v-model="sliderVal[i]" style="width: 25px" /> %
@@ -102,20 +106,11 @@ export default {
     sliderVal: {
       deep: true,
       handler: function (newVal) {
-        console.log("test");
         for (let i = 0; i < newVal.length; i++) {
           this.mainmap
             .getLayers()
             .getArray()
             [i].setOpacity(newVal[i] / 100);
-        }
-      },
-    },
-    checklist: {
-      deep: true, //object需要用deep觀察屬性
-      handler: function (newVal) {
-        for (let i = 0; i < newVal.length; i++) {
-          this.mainmap.getLayers().getArray()[i].setVisible(newVal[i].state);
         }
       },
     },
@@ -127,10 +122,16 @@ export default {
   },
 
   methods: {
+    checkClick: function (i) {
+      let bool = this.mainmap.getLayers().getArray()[i].getVisible();
+      this.checklist[i].state = !bool;
+      this.mainmap.getLayers().getArray()[i].setVisible(!bool);
+    },
     mouseCoord: function (ev) {
       let pixel = this.mainmap.getEventPixel(ev);
       let _coord = this.mainmap.getCoordinateFromPixel(pixel);
-      let coord4 = _coord.map(function (a) {
+      let coord4 = (_coord || []).map(function (a) {
+        //防止空值報錯
         return a.toFixed(4);
       }); //methods內不用箭頭函數
       this.coord = coord4;
