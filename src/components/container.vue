@@ -1,5 +1,9 @@
 <template>
-  <div ref="map-root" style="width: 100%; height: 100%"></div>
+  <div
+    ref="map-root"
+    @mousemove="mouseCoord"
+    style="width: 100%; height: 100%"
+  ></div>
   <select v-model="selectUnits">
     <option value="" selected disabled>map unit</option>
     <option v-for="option in options" :key="option.text" :value="option.value">
@@ -7,10 +11,10 @@
       {{ option.text }}
     </option>
   </select>
-
-  <div v-for="(item, i) in checklist" :key="i">
-    <input type="checkbox" :value="i" v-model="checklist[i].state" id="i" />
-    <label for="i"> {{ checklist[i].name }} </label>
+  <div>{{ coord }}</div>
+  <div v-for="(item, i) in checklist" :key="item">
+    <input type="checkbox" v-model="item.state" />
+    <label> {{ item.name }} </label>
     <br />
     Opacity <input v-model="sliderVal[i]" style="width: 25px" /> %
     <vue-slider
@@ -21,8 +25,8 @@
       :hide-label="true"
       :tooltip-formatter="sliderFormat"
       width="200px"
+      >{{ zzz }}</vue-slider
     >
-    </vue-slider>
   </div>
 </template>
 
@@ -30,9 +34,9 @@
 import "ol/ol.css";
 import View from "ol/View";
 import Map from "ol/Map";
-import TileLayer from "ol/layer/Tile";
-import OSM from "ol/source/OSM";
-import XYZ from "ol/source/XYZ";
+//import TileLayer from "ol/layer/Tile";
+//import OSM from "ol/source/OSM";
+//import XYZ from "ol/source/XYZ";
 import { defaults as defaultControl, ScaleLine } from "ol/control";
 import { defaults as defaultInteractions, DragAndDrop } from "ol/interaction";
 import { GPX, GeoJSON, IGC, KML, TopoJSON } from "ol/format";
@@ -44,19 +48,26 @@ import Feature from "ol/Feature";
 import VueSlider from "vue-slider-component";
 import "vue-slider-component/theme/antd.css";
 
-const layers = [
-  new TileLayer({
-    name: "OpenStreetMap",
-    source: new OSM(),
-  }),
-  new TileLayer({
-    name: "魯地圖",
-    opacity: 0.5,
-    source: new XYZ({
-      url: "http://rudy.tile.basecamp.tw/{z}/{x}/{y}.png",
-    }),
-  }),
-];
+//const layers = [
+//  new TileLayer({
+//    name: "OpenStreetMap",
+//    source: new OSM(),
+//  }),
+//  new TileLayer({
+//    name: "魯地圖",
+//    opacity: 0.5,
+//    source: new XYZ({
+//      url: "https://rs.happyman.idv.tw/map/moi_osm/{z}/{x}/{y}.png",
+//    }),
+//  }),
+//  new TileLayer({
+//    name: "BingMap",
+//    source: new BingMaps({
+//      imagerySet: "Aerial",
+//      key: "AtxhFL61gkrGg34Rd6hUnrZbAYu3s_fpbocD79mi7w3YEWzY0SoK2wD0HJJlgg4I",
+//    }),
+//  }),
+//];
 
 function scaleControl(unit) {
   let control = new ScaleLine({
@@ -76,11 +87,11 @@ function addPoints(gpxPointLayer, linestring, filename) {
 }
 
 let checklist = [];
-layers.forEach((item) =>
-  checklist.push({ state: true, name: item.get("name") })
-);
 let sliderval = [];
-layers.forEach((item) => sliderval.push(item.getOpacity() * 100));
+//layers.forEach((item) => {
+//  checklist.push({ state: true, name: item.get("name") });
+//  sliderval.push(item.getOpacity() * 100);
+//});
 
 let dragAndDropInteraction = new DragAndDrop({
   formatConstructors: [GPX, GeoJSON, IGC, KML, TopoJSON],
@@ -92,60 +103,83 @@ export default {
   components: {
     VueSlider,
   },
-
+  props: ["layerP"],
   data() {
     //component必須用function
     return {
       checklist,
+      layers: this.layerP,
       options: [
         { text: "metric", value: "metric" },
         { text: "degrees", value: "degrees" },
         { text: "nautical miles", value: "nautical" },
       ],
-      map: null,
+      mainmap: null,
       selectUnits: "",
       sliderVal: sliderval,
       sliderFormat: "{value}%",
+      coord: "",
     };
   },
 
   mounted() {
+    this.layers.forEach((item) => {
+      checklist.push({ state: true, name: item.get("name") });
+      sliderval.push(item.getOpacity() * 100);
+    });
     //mounted後DOM載入始可用ol, data變動會update重新渲染
     this.initmap();
   },
-
+  computed: {
+    zzz: function () {
+      return this.sliderVal[1];
+    },
+  },
   watch: {
     sliderVal: {
+      deep: true,
       handler: function (newVal) {
+        console.log("test");
         for (let i = 0; i < newVal.length; i++) {
-          this.map.getLayers().array_[i].setOpacity(newVal[i] / 100);
+          this.mainmap
+            .getLayers()
+            .getArray()
+            [i].setOpacity(newVal[i] / 100);
         }
       },
-      deep: true,
     },
     checklist: {
+      deep: true, //object需要用deep觀察屬性
       handler: function (newVal) {
         for (let i = 0; i < newVal.length; i++) {
-          //圖層開關
-          this.map.getLayers().array_[i].setVisible(newVal[i].state);
+          this.mainmap.getLayers().getArray()[i].setVisible(newVal[i].state);
         }
       },
-      deep: true,
     },
     selectUnits: function (newVal) {
       //監聽selectUnits,  function(newVal, oldVal)
-      this.map.removeControl(this.map.getControls().array_[3]);
-      this.map.addControl(scaleControl(newVal));
+      this.mainmap.removeControl(this.mainmap.getControls().getArray()[3]);
+      this.mainmap.addControl(scaleControl(newVal));
     },
   },
 
   methods: {
+    mouseCoord: function (ev) {
+      let pixel = this.mainmap.getEventPixel(ev);
+      let _coord = this.mainmap.getCoordinateFromPixel(pixel);
+      let coord4 = _coord.map(function (a) {
+        return a.toFixed(4);
+      }); //methods內不用箭頭函數
+      this.coord = coord4;
+    },
     initmap: function () {
-      this.map = new Map({
+      //console.log(this);
+      this.mainmap = new Map({
+        //連結到data的mainmap
         controls: defaultControl().extend([scaleControl()]),
         interactions: defaultInteractions().extend([dragAndDropInteraction]),
         target: this.$refs["map-root"],
-        layers: layers,
+        layers: this.layers,
         view: new View({
           projection: "EPSG:4326",
           center: [121, 23.6],
@@ -158,7 +192,7 @@ export default {
       dragAndDropInteraction.on("addfeatures", function (event) {
         let file_name = event.file.name;
         let pts_name = "pts_" + file_name;
-        that.$bus.emit("theevent", file_name); //傳送給平行元件
+        that.$bus.emit("filename", file_name); //傳送給平行元件
         //增加空點圖層
         let gpxPointLayer = new VectorLayer({
           name: pts_name,
@@ -171,7 +205,7 @@ export default {
           }),
         });
         let coords = [];
-        event.features.forEach(function (item) {
+        event.features.forEach((item) => {
           item.set("filename", file_name);
           if (item.getGeometry().getType() === "LineString") {
             addPoints(gpxPointLayer, item.getGeometry(), file_name);
@@ -195,9 +229,9 @@ export default {
             stroke: new Stroke({ color: "green", width: 4 }),
           }),
         });
-        that.map.addLayer(linelayer);
-        that.map.addLayer(gpxPointLayer);
-        that.map.getView().fit(vectorSource.getExtent());
+        that.mainmap.addLayer(linelayer);
+        that.mainmap.addLayer(gpxPointLayer);
+        that.mainmap.getView().fit(vectorSource.getExtent());
       });
     },
   },
