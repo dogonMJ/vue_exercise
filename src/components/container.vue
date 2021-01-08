@@ -25,8 +25,7 @@
       :hide-label="true"
       :tooltip-formatter="sliderFormat"
       width="200px"
-      >{{ zzz }}</vue-slider
-    >
+    ></vue-slider>
   </div>
 </template>
 
@@ -34,9 +33,6 @@
 import "ol/ol.css";
 import View from "ol/View";
 import Map from "ol/Map";
-//import TileLayer from "ol/layer/Tile";
-//import OSM from "ol/source/OSM";
-//import XYZ from "ol/source/XYZ";
 import { defaults as defaultControl, ScaleLine } from "ol/control";
 import { defaults as defaultInteractions, DragAndDrop } from "ol/interaction";
 import { GPX, GeoJSON, IGC, KML, TopoJSON } from "ol/format";
@@ -47,27 +43,6 @@ import Point from "ol/geom/Point";
 import Feature from "ol/Feature";
 import VueSlider from "vue-slider-component";
 import "vue-slider-component/theme/antd.css";
-
-//const layers = [
-//  new TileLayer({
-//    name: "OpenStreetMap",
-//    source: new OSM(),
-//  }),
-//  new TileLayer({
-//    name: "魯地圖",
-//    opacity: 0.5,
-//    source: new XYZ({
-//      url: "https://rs.happyman.idv.tw/map/moi_osm/{z}/{x}/{y}.png",
-//    }),
-//  }),
-//  new TileLayer({
-//    name: "BingMap",
-//    source: new BingMaps({
-//      imagerySet: "Aerial",
-//      key: "AtxhFL61gkrGg34Rd6hUnrZbAYu3s_fpbocD79mi7w3YEWzY0SoK2wD0HJJlgg4I",
-//    }),
-//  }),
-//];
 
 function scaleControl(unit) {
   let control = new ScaleLine({
@@ -86,13 +61,6 @@ function addPoints(gpxPointLayer, linestring, filename) {
   });
 }
 
-let checklist = [];
-let sliderval = [];
-//layers.forEach((item) => {
-//  checklist.push({ state: true, name: item.get("name") });
-//  sliderval.push(item.getOpacity() * 100);
-//});
-
 let dragAndDropInteraction = new DragAndDrop({
   formatConstructors: [GPX, GeoJSON, IGC, KML, TopoJSON],
 });
@@ -107,7 +75,8 @@ export default {
   data() {
     //component必須用function
     return {
-      checklist,
+      checklist: [],
+      sliderVal: [],
       layers: this.layerP,
       options: [
         { text: "metric", value: "metric" },
@@ -116,7 +85,6 @@ export default {
       ],
       mainmap: null,
       selectUnits: "",
-      sliderVal: sliderval,
       sliderFormat: "{value}%",
       coord: "",
     };
@@ -124,16 +92,11 @@ export default {
 
   mounted() {
     this.layers.forEach((item) => {
-      checklist.push({ state: true, name: item.get("name") });
-      sliderval.push(item.getOpacity() * 100);
+      this.checklist.push({ state: true, name: item.get("name") });
+      this.sliderVal.push(item.getOpacity() * 100);
     });
     //mounted後DOM載入始可用ol, data變動會update重新渲染
     this.initmap();
-  },
-  computed: {
-    zzz: function () {
-      return this.sliderVal[1];
-    },
   },
   watch: {
     sliderVal: {
