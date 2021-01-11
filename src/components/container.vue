@@ -4,25 +4,28 @@
     @mousemove="mouseCoord"
     style="width: 100%; height: 100%"
   ></div>
-  <select v-model="selectUnits">
+  <select v-model="mapUnits">
     <option value="" selected disabled>map unit</option>
     <option v-for="option in options" :key="option.text" :value="option.value">
-      <!-- v-bind:value 回傳給selectUnits-->
+      <!-- v-bind:value 回傳給mapUnits-->
       {{ option.text }}
     </option>
   </select>
-  <div>{{ coord }}</div>
+  <div>Longitude:{{ coord[0] }}, Latitude: {{ coord[1] }}</div>
   <div v-for="(item, i) in checklist" :key="item">
     <input
       type="checkbox"
-      @click="checkClick(i)"
+      @click="checkSwitch(i)"
       v-model="checklist[i].state"
     />
     <label> {{ item.name }} </label>
     <br />
-    Opacity <input v-model="sliderVal[i]" style="width: 25px" /> %
+    Opacity
+    <input v-model="sliderOpacity[i]" style="width: 25px" />
+    %
     <vue-slider
-      v-model="sliderVal[i]"
+      @change="sliderChange(i)"
+      v-model="sliderOpacity[i]"
       :min="0"
       :max="100"
       :marks="[0, 50, 100]"
@@ -80,7 +83,7 @@ export default {
     //component必須用function
     return {
       checklist: [],
-      sliderVal: [],
+      sliderOpacity: [],
       layers: this.layerP,
       options: [
         { text: "metric", value: "metric" },
@@ -88,7 +91,7 @@ export default {
         { text: "nautical miles", value: "nautical" },
       ],
       mainmap: null,
-      selectUnits: "",
+      mapUnits: "",
       sliderFormat: "{value}%",
       coord: "",
     };
@@ -97,32 +100,27 @@ export default {
   mounted() {
     this.layers.forEach((item) => {
       this.checklist.push({ state: true, name: item.get("name") });
-      this.sliderVal.push(item.getOpacity() * 100);
+      this.sliderOpacity.push(item.getOpacity() * 100);
     });
     //mounted後DOM載入始可用ol, data變動會update重新渲染
     this.initmap();
   },
   watch: {
-    sliderVal: {
-      deep: true,
-      handler: function (newVal) {
-        for (let i = 0; i < newVal.length; i++) {
-          this.mainmap
-            .getLayers()
-            .getArray()
-            [i].setOpacity(newVal[i] / 100);
-        }
-      },
-    },
-    selectUnits: function (newVal) {
-      //監聽selectUnits,  function(newVal, oldVal)
+    mapUnits: function (newVal) {
+      //監聽mapUnits,  function(newVal, oldVal)
       this.mainmap.removeControl(this.mainmap.getControls().getArray()[3]);
       this.mainmap.addControl(scaleControl(newVal));
     },
   },
 
   methods: {
-    checkClick: function (i) {
+    sliderChange: function (i) {
+      this.mainmap
+        .getLayers()
+        .getArray()
+        [i].setOpacity(this.sliderOpacity[i] / 100);
+    },
+    checkSwitch: function (i) {
       let bool = this.mainmap.getLayers().getArray()[i].getVisible();
       this.checklist[i].state = !bool;
       this.mainmap.getLayers().getArray()[i].setVisible(!bool);
@@ -135,9 +133,11 @@ export default {
         return a.toFixed(4);
       }); //methods內不用箭頭函數
       this.coord = coord4;
+      this.mainmap.forEachFeatureAtPixel(pixel, function (feature) {
+        console.log(feature);
+      });
     },
     initmap: function () {
-      //console.log(this);
       this.mainmap = new Map({
         //連結到data的mainmap
         controls: defaultControl().extend([scaleControl()]),

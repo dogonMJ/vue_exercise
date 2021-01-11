@@ -22,7 +22,6 @@ export default {
     };
   },
   created() {
-    console.log(this.layers);
     this.$bus.on("filename", (e) => {
       this.filename = e;
     });
