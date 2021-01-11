@@ -35,7 +35,7 @@ export default {
         new TileLayer({
           name: "OpenStreetMap",
           source: new OSM(),
-          zIndex: 2,
+          zIndex: 0,
         }),
         new TileLayer({
           name: "魯地圖",
@@ -43,7 +43,7 @@ export default {
           source: new XYZ({
             url: "https://rs.happyman.idv.tw/map/moi_osm/{z}/{x}/{y}.png",
           }),
-          zIndex: 1,
+          zIndex: -1,
         }),
         new TileLayer({
           name: "BingMap",
@@ -52,7 +52,7 @@ export default {
             key:
               "AtxhFL61gkrGg34Rd6hUnrZbAYu3s_fpbocD79mi7w3YEWzY0SoK2wD0HJJlgg4I",
           }),
-          zIndex: 0,
+          zIndex: -2,
         }),
       ],
     };
