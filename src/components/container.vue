@@ -50,14 +50,16 @@ import Point from "ol/geom/Point";
 import Feature from "ol/Feature";
 import VueSlider from "vue-slider-component";
 import "vue-slider-component/theme/antd.css";
+import bus from "./eventBus";
 
-function scaleControl(unit) {
-  let control = new ScaleLine({
+const scaleControl = (unit) => {
+  const control = new ScaleLine({
     units: unit,
   });
   return control;
-}
-function addPoints(gpxPointLayer, linestring, filename) {
+};
+
+const addPoints = (gpxPointLayer, linestring, filename) => {
   linestring.getCoordinates().forEach((coordinates) => {
     gpxPointLayer.getSource().addFeature(
       new Feature({
@@ -66,10 +68,67 @@ function addPoints(gpxPointLayer, linestring, filename) {
       })
     );
   });
-}
+};
 
-let dragAndDropInteraction = new DragAndDrop({
+const dragAndDropInteraction = new DragAndDrop({
   formatConstructors: [GPX, GeoJSON, IGC, KML, TopoJSON],
+});
+
+const dragFeature = (mainmap) => {
+  dragAndDropInteraction.on("addfeatures", function (event) {
+    const file_name = event.file.name;
+    const pts_name = "pts_" + file_name;
+    bus.emit("filename", file_name); //傳送給平行元件
+    //增加空點圖層
+    const gpxPointLayer = new VectorLayer({
+      name: pts_name,
+      source: new VectorSource(),
+      style: new Style({
+        image: new Circle({
+          fill: new Fill({ color: "red" }),
+          radius: 3,
+        }),
+      }),
+    });
+    let coords = [];
+    event.features.forEach((item) => {
+      item.set("filename", file_name);
+      if (item.getGeometry().getType() === "LineString") {
+        addPoints(gpxPointLayer, item.getGeometry(), file_name);
+      } else if (item.getGeometry().getType() === "MultiLineString") {
+        item
+          .getGeometry()
+          .getLineStrings()
+          .forEach(function (linestring) {
+            coords = coords.concat(linestring.getCoordinates());
+            addPoints(gpxPointLayer, linestring, file_name);
+          });
+      }
+    });
+    const vectorSource = new VectorSource({
+      features: event.features,
+    });
+    const linelayer = new VectorLayer({
+      name: file_name,
+      source: vectorSource,
+      style: new Style({
+        stroke: new Stroke({ color: "green", width: 4 }),
+      }),
+    });
+    mainmap.addLayer(linelayer);
+    mainmap.addLayer(gpxPointLayer);
+    mainmap.getView().fit(vectorSource.getExtent());
+  });
+};
+
+const highlightStyle = new Style({
+  stroke: new Stroke({
+    color: [255, 0, 0, 0.5],
+    width: 6,
+  }),
+  fill: new Fill({
+    color: "rgba(255,0,0,0.1)",
+  }),
 });
 
 export default {
@@ -121,20 +180,25 @@ export default {
         [i].setOpacity(this.sliderOpacity[i] / 100);
     },
     checkSwitch: function (i) {
-      let bool = this.mainmap.getLayers().getArray()[i].getVisible();
+      const bool = this.mainmap.getLayers().getArray()[i].getVisible();
       this.checklist[i].state = !bool;
       this.mainmap.getLayers().getArray()[i].setVisible(!bool);
     },
     mouseCoord: function (ev) {
-      let pixel = this.mainmap.getEventPixel(ev);
-      let _coord = this.mainmap.getCoordinateFromPixel(pixel);
-      let coord4 = (_coord || []).map(function (a) {
+      const pixel = this.mainmap.getEventPixel(ev);
+      const _coord = this.mainmap.getCoordinateFromPixel(pixel);
+      const coord4 = (_coord || []).map(function (a) {
         //防止空值報錯
         return a.toFixed(4);
       }); //methods內不用箭頭函數
       this.coord = coord4;
+
+      let selected = null;
+
       this.mainmap.forEachFeatureAtPixel(pixel, function (feature) {
-        console.log(feature);
+        selected = feature;
+        selected.setStyle(highlightStyle);
+        console.log(selected);
       });
     },
     initmap: function () {
@@ -150,53 +214,7 @@ export default {
           zoom: 7.5,
         }),
       });
-
-      let that = this;
-
-      dragAndDropInteraction.on("addfeatures", function (event) {
-        let file_name = event.file.name;
-        let pts_name = "pts_" + file_name;
-        that.$bus.emit("filename", file_name); //傳送給平行元件
-        //增加空點圖層
-        let gpxPointLayer = new VectorLayer({
-          name: pts_name,
-          source: new VectorSource(),
-          style: new Style({
-            image: new Circle({
-              fill: new Fill({ color: "red" }),
-              radius: 3,
-            }),
-          }),
-        });
-        let coords = [];
-        event.features.forEach((item) => {
-          item.set("filename", file_name);
-          if (item.getGeometry().getType() === "LineString") {
-            addPoints(gpxPointLayer, item.getGeometry(), file_name);
-          } else if (item.getGeometry().getType() === "MultiLineString") {
-            item
-              .getGeometry()
-              .getLineStrings()
-              .forEach(function (linestring) {
-                coords = coords.concat(linestring.getCoordinates());
-                addPoints(gpxPointLayer, linestring, file_name);
-              });
-          }
-        });
-        let vectorSource = new VectorSource({
-          features: event.features,
-        });
-        let linelayer = new VectorLayer({
-          name: file_name,
-          source: vectorSource,
-          style: new Style({
-            stroke: new Stroke({ color: "green", width: 4 }),
-          }),
-        });
-        that.mainmap.addLayer(linelayer);
-        that.mainmap.addLayer(gpxPointLayer);
-        that.mainmap.getView().fit(vectorSource.getExtent());
-      });
+      dragFeature(this.mainmap);
     },
   },
 };

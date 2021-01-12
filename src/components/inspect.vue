@@ -8,7 +8,7 @@
 <script>
 import VueSlider from "vue-slider-component";
 import "vue-slider-component/theme/antd.css";
-
+import bus from "./eventBus";
 export default {
   components: {
     VueSlider,
@@ -21,7 +21,7 @@ export default {
     };
   },
   created() {
-    this.$bus.on("filename", (e) => {
+    bus.on("filename", (e) => {
       this.filename = e;
     });
   },
