@@ -1,0 +1,3485 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.01,
+        "status": true,
+        "gps_altitude": 7.51,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.1,
+        "heading": 24.81,
+        "gps_time": "2021-01-13 14:00:53",
+        "bdgcwb": {
+          "Temperature": 12.66,
+          "status": true,
+          "Humidity": 84.19,
+          "Pressure": 1.0182,
+          "Generic": -2.73
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.3,
+          "SystemSampleTime": "2021-01-13 14:00:53",
+          "BoardT": 17.0,
+          "AirP": 6391.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.14,
+        "status": true,
+        "gps_altitude": 7.45,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.94,
+        "gps_time": "2021-01-13 14:05:53",
+        "bdgcwb": {
+          "Temperature": 12.82,
+          "status": true,
+          "Humidity": 84.18,
+          "Pressure": 1.0181,
+          "Generic": -3.21
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.3,
+          "SystemSampleTime": "2021-01-13 14:05:53",
+          "BoardT": 17.0,
+          "AirP": 6390.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.04,
+        "status": true,
+        "gps_altitude": 7.55,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.83,
+        "gps_time": "2021-01-13 14:10:53",
+        "bdgcwb": {
+          "Temperature": 12.54,
+          "status": true,
+          "Humidity": 85.51,
+          "Pressure": 1.018,
+          "Generic": -3.5
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.2,
+          "SystemSampleTime": "2021-01-13 14:10:53",
+          "BoardT": 16.9,
+          "AirP": 6398.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.01,
+        "status": true,
+        "gps_altitude": 7.51,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.8,
+        "gps_time": "2021-01-13 14:15:53",
+        "bdgcwb": {
+          "Temperature": 12.49,
+          "status": true,
+          "Humidity": 86.12,
+          "Pressure": 1.0181,
+          "Generic": -3.27
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 14:15:53",
+          "BoardT": 16.9,
+          "AirP": 6369.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.99,
+        "status": true,
+        "gps_altitude": 7.47,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.84,
+        "gps_time": "2021-01-13 14:20:53",
+        "bdgcwb": {
+          "Temperature": 12.44,
+          "status": true,
+          "Humidity": 87.52,
+          "Pressure": 1.0181,
+          "Generic": -3.13
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 14:20:53",
+          "BoardT": 16.9,
+          "AirP": 6378.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.14,
+        "status": true,
+        "gps_altitude": 7.37,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.85,
+        "gps_time": "2021-01-13 14:25:53",
+        "bdgcwb": {
+          "Temperature": 12.45,
+          "status": true,
+          "Humidity": 87.52,
+          "Pressure": 1.0181,
+          "Generic": -2.8
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 14:25:53",
+          "BoardT": 16.8,
+          "AirP": 6415.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.05,
+        "status": true,
+        "gps_altitude": 7.44,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.85,
+        "gps_time": "2021-01-13 14:30:53",
+        "bdgcwb": {
+          "Temperature": 12.47,
+          "status": true,
+          "Humidity": 86.69,
+          "Pressure": 1.0181,
+          "Generic": -2.89
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.0,
+          "SystemSampleTime": "2021-01-13 14:30:53",
+          "BoardT": 16.8,
+          "AirP": 6402.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.08,
+        "status": true,
+        "gps_altitude": 7.41,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.85,
+        "gps_time": "2021-01-13 14:35:53",
+        "bdgcwb": {
+          "Temperature": 12.58,
+          "status": true,
+          "Humidity": 86.93,
+          "Pressure": 1.0181,
+          "Generic": -2.92
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 14:35:54",
+          "BoardT": 16.8,
+          "AirP": 6370.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.04,
+        "status": true,
+        "gps_altitude": 7.45,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.82,
+        "gps_time": "2021-01-13 14:40:53",
+        "bdgcwb": {
+          "Temperature": 12.51,
+          "status": true,
+          "Humidity": 86.08,
+          "Pressure": 1.018,
+          "Generic": -2.9
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 14:40:53",
+          "BoardT": 16.7,
+          "AirP": 6399.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.02,
+        "status": true,
+        "gps_altitude": 7.46,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.81,
+        "gps_time": "2021-01-13 14:45:53",
+        "bdgcwb": {
+          "Temperature": 12.4,
+          "status": true,
+          "Humidity": 86.45,
+          "Pressure": 1.018,
+          "Generic": -3.18
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.0,
+          "SystemSampleTime": "2021-01-13 14:45:53",
+          "BoardT": 16.7,
+          "AirP": 6418.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.07,
+        "status": true,
+        "gps_altitude": 7.45,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.83,
+        "gps_time": "2021-01-13 14:50:53",
+        "bdgcwb": {
+          "Temperature": 12.22,
+          "status": true,
+          "Humidity": 87.14,
+          "Pressure": 1.018,
+          "Generic": -2.83
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.9,
+          "SystemSampleTime": "2021-01-13 14:50:53",
+          "BoardT": 16.7,
+          "AirP": 6375.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.08,
+        "status": true,
+        "gps_altitude": 7.43,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.8,
+        "gps_time": "2021-01-13 14:55:53",
+        "bdgcwb": {
+          "Temperature": 12.47,
+          "status": true,
+          "Humidity": 88.09,
+          "Pressure": 1.018,
+          "Generic": -2.68
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.0,
+          "SystemSampleTime": "2021-01-13 14:55:53",
+          "BoardT": 16.6,
+          "AirP": 6389.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.01,
+        "status": true,
+        "gps_altitude": 7.41,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.84,
+        "gps_time": "2021-01-13 15:00:53",
+        "bdgcwb": {
+          "Temperature": 12.21,
+          "status": true,
+          "Humidity": 86.7,
+          "Pressure": 1.0178,
+          "Generic": -2.68
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.9,
+          "SystemSampleTime": "2021-01-13 15:00:53",
+          "BoardT": 16.6,
+          "AirP": 6412.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.01,
+        "status": true,
+        "gps_altitude": 7.45,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.82,
+        "gps_time": "2021-01-13 15:05:53",
+        "bdgcwb": {
+          "Temperature": 12.51,
+          "status": true,
+          "Humidity": 85.29,
+          "Pressure": 1.0178,
+          "Generic": -3.04
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.0,
+          "SystemSampleTime": "2021-01-13 15:05:53",
+          "BoardT": 16.6,
+          "AirP": 6395.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.99,
+        "status": true,
+        "gps_altitude": 7.35,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.86,
+        "gps_time": "2021-01-13 15:10:52",
+        "bdgcwb": {
+          "Temperature": 12.24,
+          "status": true,
+          "Humidity": 86.41,
+          "Pressure": 1.0177,
+          "Generic": -3.12
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.9,
+          "SystemSampleTime": "2021-01-13 15:10:53",
+          "BoardT": 16.5,
+          "AirP": 6389.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.93,
+        "status": true,
+        "gps_altitude": 7.39,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.89,
+        "gps_time": "2021-01-13 15:15:57",
+        "bdgcwb": {
+          "Temperature": 12.11,
+          "status": true,
+          "Humidity": 86.84,
+          "Pressure": 1.0177,
+          "Generic": -3.03
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.8,
+          "SystemSampleTime": "2021-01-13 15:15:57",
+          "BoardT": 16.5,
+          "AirP": 6389.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.95,
+        "status": true,
+        "gps_altitude": 7.4,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.88,
+        "gps_time": "2021-01-13 15:20:57",
+        "bdgcwb": {
+          "Temperature": 12.12,
+          "status": true,
+          "Humidity": 87.03,
+          "Pressure": 1.0176,
+          "Generic": -2.8
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.8,
+          "SystemSampleTime": "2021-01-13 15:20:57",
+          "BoardT": 16.5,
+          "AirP": 6372.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.99,
+        "status": true,
+        "gps_altitude": 7.42,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.88,
+        "gps_time": "2021-01-13 15:25:57",
+        "bdgcwb": {
+          "Temperature": 12.06,
+          "status": true,
+          "Humidity": 87.26,
+          "Pressure": 1.0176,
+          "Generic": -3.08
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.7,
+          "SystemSampleTime": "2021-01-13 15:25:57",
+          "BoardT": 16.5,
+          "AirP": 6363.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.96,
+        "status": true,
+        "gps_altitude": 7.38,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.88,
+        "gps_time": "2021-01-13 15:30:57",
+        "bdgcwb": {
+          "Temperature": 12.1,
+          "status": true,
+          "Humidity": 87.5,
+          "Pressure": 1.0176,
+          "Generic": -3.0
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.8,
+          "SystemSampleTime": "2021-01-13 15:30:57",
+          "BoardT": 16.4,
+          "AirP": 6410.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.01,
+        "status": true,
+        "gps_altitude": 7.4,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.86,
+        "gps_time": "2021-01-13 15:40:57",
+        "bdgcwb": {
+          "Temperature": 12.42,
+          "status": true,
+          "Humidity": 84.35,
+          "Pressure": 1.0176,
+          "Generic": -2.87
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.0,
+          "SystemSampleTime": "2021-01-13 15:40:57",
+          "BoardT": 16.4,
+          "AirP": 6394.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.98,
+        "status": true,
+        "gps_altitude": 7.39,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.87,
+        "gps_time": "2021-01-13 15:45:56",
+        "bdgcwb": {
+          "Temperature": 12.41,
+          "status": true,
+          "Humidity": 83.88,
+          "Pressure": 1.0177,
+          "Generic": -2.98
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.0,
+          "SystemSampleTime": "2021-01-13 15:45:57",
+          "BoardT": 16.4,
+          "AirP": 6397.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.94,
+        "status": true,
+        "gps_altitude": 7.33,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.83,
+        "gps_time": "2021-01-13 15:50:56",
+        "bdgcwb": {
+          "Temperature": 12.53,
+          "status": true,
+          "Humidity": 83.26,
+          "Pressure": 1.0177,
+          "Generic": -2.9
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.0,
+          "SystemSampleTime": "2021-01-13 15:50:57",
+          "BoardT": 16.3,
+          "AirP": 6364.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.92,
+        "status": true,
+        "gps_altitude": 7.42,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.82,
+        "gps_time": "2021-01-13 15:55:57",
+        "bdgcwb": {
+          "Temperature": 12.74,
+          "status": true,
+          "Humidity": 82.16,
+          "Pressure": 1.0177,
+          "Generic": -2.9
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 15:55:57",
+          "BoardT": 16.3,
+          "AirP": 6393.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.89,
+        "status": true,
+        "gps_altitude": 7.33,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.82,
+        "gps_time": "2021-01-13 16:00:57",
+        "bdgcwb": {
+          "Temperature": 12.61,
+          "status": true,
+          "Humidity": 82.74,
+          "Pressure": 1.0177,
+          "Generic": -3.34
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 16:00:57",
+          "BoardT": 16.3,
+          "AirP": 6373.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.91,
+        "status": true,
+        "gps_altitude": 7.36,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.82,
+        "gps_time": "2021-01-13 16:05:56",
+        "bdgcwb": {
+          "Temperature": 12.5,
+          "status": true,
+          "Humidity": 84.72,
+          "Pressure": 1.0177,
+          "Generic": -3.67
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 16:05:57",
+          "BoardT": 16.2,
+          "AirP": 6384.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.93,
+        "status": true,
+        "gps_altitude": 7.4,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.82,
+        "gps_time": "2021-01-13 16:10:57",
+        "bdgcwb": {
+          "Temperature": 12.45,
+          "status": true,
+          "Humidity": 86.5,
+          "Pressure": 1.0176,
+          "Generic": -3.49
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.0,
+          "SystemSampleTime": "2021-01-13 16:10:57",
+          "BoardT": 16.2,
+          "AirP": 6401.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.84,
+        "status": true,
+        "gps_altitude": 7.25,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.81,
+        "gps_time": "2021-01-13 16:15:56",
+        "bdgcwb": {
+          "Temperature": 12.43,
+          "status": true,
+          "Humidity": 87.27,
+          "Pressure": 1.0176,
+          "Generic": -3.14
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 16:15:56",
+          "BoardT": 16.2,
+          "AirP": 6402.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.9,
+        "status": true,
+        "gps_altitude": 7.21,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.81,
+        "gps_time": "2021-01-13 16:20:57",
+        "bdgcwb": {
+          "Temperature": 12.26,
+          "status": true,
+          "Humidity": 88.37,
+          "Pressure": 1.0176,
+          "Generic": -3.5
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.9,
+          "SystemSampleTime": "2021-01-13 16:20:57",
+          "BoardT": 16.1,
+          "AirP": 6376.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.94,
+        "status": true,
+        "gps_altitude": 7.23,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.81,
+        "gps_time": "2021-01-13 16:25:57",
+        "bdgcwb": {
+          "Temperature": 12.18,
+          "status": true,
+          "Humidity": 88.82,
+          "Pressure": 1.0177,
+          "Generic": -3.46
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.8,
+          "SystemSampleTime": "2021-01-13 16:25:57",
+          "BoardT": 16.1,
+          "AirP": 6412.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.93,
+        "status": true,
+        "gps_altitude": 7.18,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.81,
+        "gps_time": "2021-01-13 16:30:57",
+        "bdgcwb": {
+          "Temperature": 12.11,
+          "status": true,
+          "Humidity": 89.24,
+          "Pressure": 1.0176,
+          "Generic": -3.35
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.8,
+          "SystemSampleTime": "2021-01-13 16:30:57",
+          "BoardT": 16.1,
+          "AirP": 6414.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.93,
+        "status": true,
+        "gps_altitude": 7.14,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.81,
+        "gps_time": "2021-01-13 16:35:57",
+        "bdgcwb": {
+          "Temperature": 12.06,
+          "status": true,
+          "Humidity": 89.18,
+          "Pressure": 1.0177,
+          "Generic": -3.41
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.8,
+          "SystemSampleTime": "2021-01-13 16:35:57",
+          "BoardT": 16.1,
+          "AirP": 6361.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.9,
+        "status": true,
+        "gps_altitude": 7.2,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.81,
+        "gps_time": "2021-01-13 16:40:57",
+        "bdgcwb": {
+          "Temperature": 11.95,
+          "status": true,
+          "Humidity": 89.14,
+          "Pressure": 1.0177,
+          "Generic": -3.44
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.7,
+          "SystemSampleTime": "2021-01-13 16:40:57",
+          "BoardT": 16.1,
+          "AirP": 6382.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.96,
+        "status": true,
+        "gps_altitude": 7.2,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.8,
+        "gps_time": "2021-01-13 16:45:56",
+        "bdgcwb": {
+          "Temperature": 11.88,
+          "status": true,
+          "Humidity": 87.41,
+          "Pressure": 1.0177,
+          "Generic": -2.75
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.6,
+          "SystemSampleTime": "2021-01-13 16:45:57",
+          "BoardT": 16.0,
+          "AirP": 6374.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.92,
+        "status": true,
+        "gps_altitude": 7.12,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.79,
+        "gps_time": "2021-01-13 16:50:56",
+        "bdgcwb": {
+          "Temperature": 12.03,
+          "status": true,
+          "Humidity": 88.25,
+          "Pressure": 1.0177,
+          "Generic": -3.12
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.7,
+          "SystemSampleTime": "2021-01-13 16:50:57",
+          "BoardT": 16.0,
+          "AirP": 6415.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.84,
+        "status": true,
+        "gps_altitude": 7.1,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.78,
+        "gps_time": "2021-01-13 16:55:57",
+        "bdgcwb": {
+          "Temperature": 11.98,
+          "status": true,
+          "Humidity": 88.25,
+          "Pressure": 1.0177,
+          "Generic": -3.16
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.7,
+          "SystemSampleTime": "2021-01-13 16:55:57",
+          "BoardT": 16.0,
+          "AirP": 6388.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.67,
+        "status": true,
+        "gps_altitude": 7.02,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.76,
+        "gps_time": "2021-01-13 17:00:56",
+        "bdgcwb": {
+          "Temperature": 12.04,
+          "status": true,
+          "Humidity": 87.58,
+          "Pressure": 1.0177,
+          "Generic": -3.11
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.7,
+          "SystemSampleTime": "2021-01-13 17:00:57",
+          "BoardT": 16.0,
+          "AirP": 6409.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.86,
+        "status": true,
+        "gps_altitude": 6.97,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.76,
+        "gps_time": "2021-01-13 17:05:57",
+        "bdgcwb": {
+          "Temperature": 12.09,
+          "status": true,
+          "Humidity": 86.39,
+          "Pressure": 1.0176,
+          "Generic": -3.18
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.7,
+          "SystemSampleTime": "2021-01-13 17:05:57",
+          "BoardT": 15.9,
+          "AirP": 6367.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.88,
+        "status": true,
+        "gps_altitude": 6.95,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.76,
+        "gps_time": "2021-01-13 17:10:57",
+        "bdgcwb": {
+          "Temperature": 12.24,
+          "status": true,
+          "Humidity": 87.07,
+          "Pressure": 1.0177,
+          "Generic": -2.76
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.8,
+          "SystemSampleTime": "2021-01-13 17:10:58",
+          "BoardT": 15.9,
+          "AirP": 6363.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.85,
+        "status": true,
+        "gps_altitude": 6.94,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.76,
+        "gps_time": "2021-01-13 17:15:57",
+        "bdgcwb": {
+          "Temperature": 12.02,
+          "status": true,
+          "Humidity": 87.39,
+          "Pressure": 1.0177,
+          "Generic": -3.42
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.7,
+          "SystemSampleTime": "2021-01-13 17:15:58",
+          "BoardT": 15.9,
+          "AirP": 6382.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.91,
+        "status": true,
+        "gps_altitude": 6.93,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.75,
+        "gps_time": "2021-01-13 17:20:57",
+        "bdgcwb": {
+          "Temperature": 11.93,
+          "status": true,
+          "Humidity": 87.47,
+          "Pressure": 1.0176,
+          "Generic": -3.27
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.6,
+          "SystemSampleTime": "2021-01-13 17:20:58",
+          "BoardT": 15.9,
+          "AirP": 6363.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.88,
+        "status": true,
+        "gps_altitude": 6.94,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.74,
+        "gps_time": "2021-01-13 17:25:57",
+        "bdgcwb": {
+          "Temperature": 11.91,
+          "status": true,
+          "Humidity": 88.67,
+          "Pressure": 1.0175,
+          "Generic": -3.54
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.6,
+          "SystemSampleTime": "2021-01-13 17:25:58",
+          "BoardT": 15.9,
+          "AirP": 6388.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.88,
+        "status": true,
+        "gps_altitude": 6.96,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.74,
+        "gps_time": "2021-01-13 17:30:56",
+        "bdgcwb": {
+          "Temperature": 11.81,
+          "status": true,
+          "Humidity": 89.13,
+          "Pressure": 1.0175,
+          "Generic": -3.31
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.5,
+          "SystemSampleTime": "2021-01-13 17:30:58",
+          "BoardT": 15.9,
+          "AirP": 6413.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.81,
+        "status": true,
+        "gps_altitude": 6.93,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.76,
+        "gps_time": "2021-01-13 17:35:57",
+        "bdgcwb": {
+          "Temperature": 11.85,
+          "status": true,
+          "Humidity": 88.43,
+          "Pressure": 1.0175,
+          "Generic": -2.86
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.6,
+          "SystemSampleTime": "2021-01-13 17:35:58",
+          "BoardT": 15.8,
+          "AirP": 6363.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.84,
+        "status": true,
+        "gps_altitude": 6.92,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.75,
+        "gps_time": "2021-01-13 17:40:56",
+        "bdgcwb": {
+          "Temperature": 11.7,
+          "status": true,
+          "Humidity": 87.88,
+          "Generic": -3.48
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.5,
+          "SystemSampleTime": "2021-01-13 17:40:57",
+          "BoardT": 15.8,
+          "AirP": 6395.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.79,
+        "status": true,
+        "gps_altitude": 6.83,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.74,
+        "gps_time": "2021-01-13 17:45:57",
+        "bdgcwb": {
+          "Temperature": 11.95,
+          "status": true,
+          "Humidity": 88.38,
+          "Pressure": 1.0174,
+          "Generic": -3.22
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.6,
+          "SystemSampleTime": "2021-01-13 17:45:58",
+          "BoardT": 15.8,
+          "AirP": 6406.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.83,
+        "status": true,
+        "gps_altitude": 6.93,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.74,
+        "gps_time": "2021-01-13 17:50:57",
+        "bdgcwb": {
+          "Temperature": 11.92,
+          "status": true,
+          "Humidity": 88.17,
+          "Pressure": 1.0174,
+          "Generic": -3.46
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.6,
+          "SystemSampleTime": "2021-01-13 17:50:58",
+          "BoardT": 15.8,
+          "AirP": 6381.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.82,
+        "status": true,
+        "gps_altitude": 6.9,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.73,
+        "gps_time": "2021-01-13 17:55:57",
+        "bdgcwb": {
+          "Temperature": 11.8,
+          "status": true,
+          "Humidity": 88.66,
+          "Generic": -3.31
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.5,
+          "SystemSampleTime": "2021-01-13 17:55:58",
+          "BoardT": 15.7,
+          "AirP": 6396.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.8,
+        "status": true,
+        "gps_altitude": 6.95,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.73,
+        "gps_time": "2021-01-13 18:00:57",
+        "bdgcwb": {
+          "Temperature": 11.75,
+          "status": true,
+          "Humidity": 88.73,
+          "Pressure": 1.0172,
+          "Generic": -3.39
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.5,
+          "SystemSampleTime": "2021-01-13 18:00:58",
+          "BoardT": 15.7,
+          "AirP": 6351.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.85,
+        "status": true,
+        "gps_altitude": 6.83,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.73,
+        "gps_time": "2021-01-13 18:05:56",
+        "bdgcwb": {
+          "Temperature": 11.61,
+          "status": true,
+          "Humidity": 89.03,
+          "Pressure": 1.0172,
+          "Generic": -3.41
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.4,
+          "SystemSampleTime": "2021-01-13 18:05:57",
+          "BoardT": 15.7,
+          "AirP": 6406.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.85,
+        "status": true,
+        "gps_altitude": 6.83,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.72,
+        "gps_time": "2021-01-13 18:10:57",
+        "bdgcwb": {
+          "Temperature": 11.63,
+          "status": true,
+          "Humidity": 89.0,
+          "Pressure": 1.0171,
+          "Generic": -3.47
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.4,
+          "SystemSampleTime": "2021-01-13 18:10:58",
+          "BoardT": 15.6,
+          "AirP": 6401.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.79,
+        "status": true,
+        "gps_altitude": 6.87,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.71,
+        "gps_time": "2021-01-13 18:15:56",
+        "bdgcwb": {
+          "Temperature": 11.49,
+          "status": true,
+          "Humidity": 88.95,
+          "Pressure": 1.017,
+          "Generic": -3.53
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.3,
+          "SystemSampleTime": "2021-01-13 18:15:58",
+          "BoardT": 15.6,
+          "AirP": 6401.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.73,
+        "status": true,
+        "gps_altitude": 6.8,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.67,
+        "gps_time": "2021-01-13 18:20:57",
+        "bdgcwb": {
+          "Temperature": 11.44,
+          "status": true,
+          "Humidity": 89.15,
+          "Pressure": 1.017,
+          "Generic": -3.33
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.3,
+          "SystemSampleTime": "2021-01-13 18:20:58",
+          "BoardT": 15.6,
+          "AirP": 6372.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.69,
+        "status": true,
+        "gps_altitude": 6.79,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.65,
+        "gps_time": "2021-01-13 18:25:56",
+        "bdgcwb": {
+          "Temperature": 11.69,
+          "status": true,
+          "Humidity": 88.77,
+          "Pressure": 1.0169,
+          "Generic": -2.98
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.3,
+          "SystemSampleTime": "2021-01-13 18:25:57",
+          "BoardT": 15.5,
+          "AirP": 6402.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.71,
+        "status": true,
+        "gps_altitude": 6.72,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.64,
+        "gps_time": "2021-01-13 18:30:57",
+        "bdgcwb": {
+          "Temperature": 11.74,
+          "status": true,
+          "Humidity": 89.04,
+          "Pressure": 1.0169,
+          "Generic": -3.0
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.4,
+          "SystemSampleTime": "2021-01-13 18:30:58",
+          "BoardT": 15.5,
+          "AirP": 6360.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.77,
+        "status": true,
+        "gps_altitude": 6.71,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.64,
+        "gps_time": "2021-01-13 18:35:56",
+        "bdgcwb": {
+          "Temperature": 11.66,
+          "status": true,
+          "Humidity": 88.3,
+          "Pressure": 1.0168,
+          "Generic": -3.15
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.4,
+          "SystemSampleTime": "2021-01-13 18:35:57",
+          "BoardT": 15.5,
+          "AirP": 6400.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.73,
+        "status": true,
+        "gps_altitude": 6.7,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.64,
+        "gps_time": "2021-01-13 18:40:56",
+        "bdgcwb": {
+          "Temperature": 11.61,
+          "status": true,
+          "Humidity": 88.49,
+          "Pressure": 1.0168,
+          "Generic": -3.2
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.3,
+          "SystemSampleTime": "2021-01-13 18:40:58",
+          "BoardT": 15.4,
+          "AirP": 6384.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.73,
+        "status": true,
+        "gps_altitude": 6.73,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.64,
+        "gps_time": "2021-01-13 18:45:57",
+        "bdgcwb": {
+          "Temperature": 11.63,
+          "status": true,
+          "Humidity": 88.4,
+          "Pressure": 1.0167,
+          "Generic": -3.51
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.3,
+          "SystemSampleTime": "2021-01-13 18:45:58",
+          "BoardT": 15.4,
+          "AirP": 6372.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.76,
+        "status": true,
+        "gps_altitude": 6.78,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.64,
+        "gps_time": "2021-01-13 18:50:57",
+        "bdgcwb": {
+          "Temperature": 11.76,
+          "status": true,
+          "Humidity": 88.19,
+          "Pressure": 1.0167,
+          "Generic": -3.34
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.4,
+          "SystemSampleTime": "2021-01-13 18:50:58",
+          "BoardT": 15.4,
+          "AirP": 6365.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.78,
+        "status": true,
+        "gps_altitude": 6.73,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.64,
+        "gps_time": "2021-01-13 18:55:56",
+        "bdgcwb": {
+          "Temperature": 11.7,
+          "status": true,
+          "Humidity": 87.5,
+          "Pressure": 1.0167,
+          "Generic": -3.15
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.4,
+          "SystemSampleTime": "2021-01-13 18:55:57",
+          "BoardT": 15.3,
+          "AirP": 6356.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.82,
+        "status": true,
+        "gps_altitude": 6.7,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.64,
+        "gps_time": "2021-01-13 19:00:56",
+        "bdgcwb": {
+          "Temperature": 11.88,
+          "status": true,
+          "Humidity": 86.87,
+          "Pressure": 1.0166,
+          "Generic": -3.0
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.4,
+          "SystemSampleTime": "2021-01-13 19:00:58",
+          "BoardT": 15.3,
+          "AirP": 6343.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.73,
+        "status": true,
+        "gps_altitude": 6.72,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.63,
+        "gps_time": "2021-01-13 19:05:31",
+        "bdgcwb": {
+          "Temperature": 11.85,
+          "status": true,
+          "Humidity": 88.05,
+          "Pressure": 1.0166,
+          "Generic": -3.09
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.5,
+          "SystemSampleTime": "2021-01-13 19:05:32",
+          "BoardT": 15.3,
+          "AirP": 6370.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.79,
+        "status": true,
+        "gps_altitude": 6.71,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.63,
+        "gps_time": "2021-01-13 19:10:56",
+        "bdgcwb": {
+          "Temperature": 11.79,
+          "status": true,
+          "Humidity": 88.06,
+          "Pressure": 1.0165,
+          "Generic": -3.1
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.5,
+          "SystemSampleTime": "2021-01-13 19:10:57",
+          "BoardT": 15.3,
+          "AirP": 6343.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.79,
+        "status": true,
+        "gps_altitude": 6.73,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.63,
+        "gps_time": "2021-01-13 19:15:56",
+        "bdgcwb": {
+          "Temperature": 11.82,
+          "status": true,
+          "Humidity": 87.74,
+          "Pressure": 1.0165,
+          "Generic": -2.63
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.5,
+          "SystemSampleTime": "2021-01-13 19:15:58",
+          "BoardT": 15.3,
+          "AirP": 6339.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.89,
+        "status": true,
+        "gps_altitude": 6.82,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.75,
+        "gps_time": "2021-01-13 21:40:56",
+        "bdgcwb": {
+          "Temperature": 11.46,
+          "status": true,
+          "Humidity": 86.64,
+          "Pressure": 1.0163,
+          "Generic": -3.07
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 21:40:57",
+          "BoardT": 14.9,
+          "AirP": 6354.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.85,
+        "status": true,
+        "gps_altitude": 6.87,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.75,
+        "gps_time": "2021-01-13 21:45:57",
+        "bdgcwb": {
+          "Temperature": 11.39,
+          "status": true,
+          "Humidity": 87.06,
+          "Pressure": 1.0164,
+          "Generic": -3.16
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.1,
+          "SystemSampleTime": "2021-01-13 21:45:58",
+          "BoardT": 14.9,
+          "AirP": 6341.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.9,
+        "status": true,
+        "gps_altitude": 6.9,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.72,
+        "gps_time": "2021-01-13 21:50:57",
+        "bdgcwb": {
+          "Temperature": 11.46,
+          "status": true,
+          "Humidity": 87.05,
+          "Pressure": 1.0163,
+          "Generic": -3.09
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 21:50:58",
+          "BoardT": 14.9,
+          "AirP": 6364.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.86,
+        "status": true,
+        "gps_altitude": 6.89,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.71,
+        "gps_time": "2021-01-13 21:55:57",
+        "bdgcwb": {
+          "Temperature": 11.43,
+          "status": true,
+          "Humidity": 86.45,
+          "Pressure": 1.0163,
+          "Generic": -3.45
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 21:55:58",
+          "BoardT": 14.9,
+          "AirP": 6365.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.92,
+        "status": true,
+        "gps_altitude": 6.87,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.73,
+        "gps_time": "2021-01-13 22:00:56",
+        "bdgcwb": {
+          "Temperature": 11.46,
+          "status": true,
+          "Humidity": 87.34,
+          "Pressure": 1.0163,
+          "Generic": -3.1
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 22:00:57",
+          "BoardT": 14.8,
+          "AirP": 6388.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.93,
+        "status": true,
+        "gps_altitude": 6.86,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.74,
+        "gps_time": "2021-01-13 22:05:57",
+        "bdgcwb": {
+          "Temperature": 11.47,
+          "status": true,
+          "Humidity": 87.66,
+          "Generic": -3.4
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 22:05:58",
+          "BoardT": 14.8,
+          "AirP": 6388.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.91,
+        "status": true,
+        "gps_altitude": 6.92,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.75,
+        "gps_time": "2021-01-13 22:10:56",
+        "bdgcwb": {
+          "Temperature": 11.39,
+          "status": true,
+          "Humidity": 87.83,
+          "Pressure": 1.0163,
+          "Generic": -3.52
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 22:10:57",
+          "BoardT": 14.8,
+          "AirP": 6364.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.91,
+        "status": true,
+        "gps_altitude": 6.97,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.71,
+        "gps_time": "2021-01-13 22:15:57",
+        "bdgcwb": {
+          "Temperature": 11.44,
+          "status": true,
+          "Humidity": 88.2,
+          "Pressure": 1.0163,
+          "Generic": -3.4
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.1,
+          "SystemSampleTime": "2021-01-13 22:15:58",
+          "BoardT": 14.8,
+          "AirP": 6354.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.82,
+        "status": true,
+        "gps_altitude": 6.93,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.71,
+        "gps_time": "2021-01-13 22:20:57",
+        "bdgcwb": {
+          "Temperature": 11.33,
+          "status": true,
+          "Humidity": 87.61,
+          "Pressure": 1.0163,
+          "Generic": -2.9
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.1,
+          "SystemSampleTime": "2021-01-13 22:20:58",
+          "BoardT": 14.8,
+          "AirP": 6370.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.95,
+        "status": true,
+        "gps_altitude": 6.93,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.74,
+        "gps_time": "2021-01-13 22:25:57",
+        "bdgcwb": {
+          "Temperature": 11.43,
+          "status": true,
+          "Humidity": 87.38,
+          "Pressure": 1.0163,
+          "Generic": -2.33
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 22:25:58",
+          "BoardT": 14.8,
+          "AirP": 6337.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.88,
+        "status": true,
+        "gps_altitude": 7.01,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.8,
+        "gps_time": "2021-01-13 22:30:57",
+        "bdgcwb": {
+          "Temperature": 11.18,
+          "status": true,
+          "Humidity": 87.19,
+          "Pressure": 1.0163,
+          "Generic": -1.8
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.1,
+          "SystemSampleTime": "2021-01-13 22:30:58",
+          "BoardT": 14.7,
+          "AirP": 6376.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.91,
+        "status": true,
+        "gps_altitude": 7.02,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.8,
+        "gps_time": "2021-01-13 22:35:56",
+        "bdgcwb": {
+          "Temperature": 11.27,
+          "status": true,
+          "Humidity": 87.56,
+          "Pressure": 1.0164,
+          "Generic": 0.4
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.1,
+          "SystemSampleTime": "2021-01-13 22:35:57",
+          "BoardT": 14.7,
+          "AirP": 6391.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.84,
+        "status": true,
+        "gps_altitude": 7.03,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.8,
+        "gps_time": "2021-01-13 22:40:56",
+        "bdgcwb": {
+          "Temperature": 11.35,
+          "status": true,
+          "Humidity": 87.99,
+          "Pressure": 1.0164,
+          "Generic": 2.83
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.1,
+          "SystemSampleTime": "2021-01-13 22:40:57",
+          "BoardT": 14.7,
+          "AirP": 6367.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.89,
+        "status": true,
+        "gps_altitude": 7.02,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.77,
+        "gps_time": "2021-01-13 22:45:57",
+        "bdgcwb": {
+          "Temperature": 11.47,
+          "status": true,
+          "Humidity": 87.37,
+          "Pressure": 1.0164,
+          "Generic": 5.86
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 22:45:58",
+          "BoardT": 14.7,
+          "AirP": 6364.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.91,
+        "status": true,
+        "gps_altitude": 7.07,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.79,
+        "gps_time": "2021-01-13 22:50:58",
+        "bdgcwb": {
+          "Temperature": 11.42,
+          "status": true,
+          "Humidity": 87.67,
+          "Pressure": 1.0165,
+          "Generic": 10.2
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.1,
+          "SystemSampleTime": "2021-01-13 22:50:58",
+          "BoardT": 14.7,
+          "AirP": 6396.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.88,
+        "status": true,
+        "gps_altitude": 7.11,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.82,
+        "gps_time": "2021-01-13 22:55:57",
+        "bdgcwb": {
+          "Temperature": 11.42,
+          "status": true,
+          "Humidity": 88.43,
+          "Pressure": 1.0166,
+          "Generic": 14.59
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.1,
+          "SystemSampleTime": "2021-01-13 22:55:58",
+          "BoardT": 14.7,
+          "AirP": 6343.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.89,
+        "status": true,
+        "gps_altitude": 7.1,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.83,
+        "gps_time": "2021-01-13 23:00:57",
+        "bdgcwb": {
+          "Temperature": 11.59,
+          "status": true,
+          "Humidity": 88.15,
+          "Pressure": 1.0166,
+          "Generic": 36.75
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 23:00:58",
+          "BoardT": 14.8,
+          "AirP": 6349.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.98,
+        "status": true,
+        "gps_altitude": 7.11,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.75,
+        "gps_time": "2021-01-13 23:05:57",
+        "bdgcwb": {
+          "Temperature": 11.49,
+          "status": true,
+          "Humidity": 87.75,
+          "Pressure": 1.0167,
+          "Generic": 52.09
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.2,
+          "SystemSampleTime": "2021-01-13 23:05:57",
+          "BoardT": 14.8,
+          "AirP": 6348.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.92,
+        "status": true,
+        "gps_altitude": 7.2,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.73,
+        "gps_time": "2021-01-13 23:10:57",
+        "bdgcwb": {
+          "Temperature": 11.65,
+          "status": true,
+          "Humidity": 87.95,
+          "Pressure": 1.0167,
+          "Generic": 66.54
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.3,
+          "SystemSampleTime": "2021-01-13 23:10:58",
+          "BoardT": 14.8,
+          "AirP": 6373.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.02,
+        "status": true,
+        "gps_altitude": 7.24,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.73,
+        "gps_time": "2021-01-13 23:15:57",
+        "bdgcwb": {
+          "Temperature": 11.82,
+          "status": true,
+          "Humidity": 87.83,
+          "Pressure": 1.0167,
+          "Generic": 84.76
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.3,
+          "SystemSampleTime": "2021-01-13 23:15:58",
+          "BoardT": 14.9,
+          "AirP": 6398.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.95,
+        "status": true,
+        "gps_altitude": 7.23,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.77,
+        "gps_time": "2021-01-13 23:20:57",
+        "bdgcwb": {
+          "Temperature": 12.25,
+          "status": true,
+          "Humidity": 83.93,
+          "Pressure": 1.0167,
+          "Generic": 100.52
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.5,
+          "SystemSampleTime": "2021-01-13 23:20:58",
+          "BoardT": 15.0,
+          "AirP": 6348.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.95,
+        "status": true,
+        "gps_altitude": 7.3,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.79,
+        "gps_time": "2021-01-13 23:25:57",
+        "bdgcwb": {
+          "Temperature": 12.45,
+          "status": true,
+          "Humidity": 83.78,
+          "Pressure": 1.0166,
+          "Generic": 114.23
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.7,
+          "SystemSampleTime": "2021-01-13 23:25:58",
+          "BoardT": 15.0,
+          "AirP": 6355.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.01,
+        "status": true,
+        "gps_altitude": 7.32,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.77,
+        "gps_time": "2021-01-13 23:30:57",
+        "bdgcwb": {
+          "Temperature": 12.71,
+          "status": true,
+          "Humidity": 82.8,
+          "Generic": 129.86
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.8,
+          "SystemSampleTime": "2021-01-13 23:30:57",
+          "BoardT": 15.1,
+          "AirP": 6397.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.93,
+        "status": true,
+        "gps_altitude": 7.31,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.79,
+        "gps_time": "2021-01-13 23:35:57",
+        "bdgcwb": {
+          "Temperature": 12.89,
+          "status": true,
+          "Humidity": 80.63,
+          "Pressure": 1.0167,
+          "Generic": 144.82
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 23:35:58",
+          "BoardT": 15.3,
+          "AirP": 6348.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.98,
+        "status": true,
+        "gps_altitude": 7.26,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.79,
+        "gps_time": "2021-01-13 23:40:57",
+        "bdgcwb": {
+          "Temperature": 12.78,
+          "status": true,
+          "Humidity": 82.15,
+          "Pressure": 1.0168,
+          "Generic": 159.38
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 23:40:57",
+          "BoardT": 15.6,
+          "AirP": 6351.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.95,
+        "status": true,
+        "gps_altitude": 7.35,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.82,
+        "gps_time": "2021-01-13 23:45:57",
+        "bdgcwb": {
+          "Temperature": 12.79,
+          "status": true,
+          "Humidity": 82.06,
+          "Pressure": 1.0168,
+          "Generic": 176.42
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.0,
+          "SystemSampleTime": "2021-01-13 23:45:58",
+          "BoardT": 16.1,
+          "AirP": 6365.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.87,
+        "status": true,
+        "gps_altitude": 7.37,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.85,
+        "gps_time": "2021-01-13 23:50:57",
+        "bdgcwb": {
+          "Temperature": 12.6,
+          "status": true,
+          "Humidity": 83.16,
+          "Pressure": 1.0167,
+          "Generic": 192.87
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 11.9,
+          "SystemSampleTime": "2021-01-13 23:50:57",
+          "BoardT": 16.7,
+          "AirP": 6383.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.96,
+        "status": true,
+        "gps_altitude": 7.42,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.86,
+        "gps_time": "2021-01-13 23:55:57",
+        "bdgcwb": {
+          "Temperature": 12.83,
+          "status": true,
+          "Humidity": 82.21,
+          "Pressure": 1.0168,
+          "Generic": 210.9
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.1,
+          "SystemSampleTime": "2021-01-13 23:55:58",
+          "BoardT": 17.3,
+          "AirP": 6332.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.98,
+        "status": true,
+        "gps_altitude": 7.47,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.8,
+        "gps_time": "2021-01-14 00:00:57",
+        "bdgcwb": {
+          "Temperature": 13.25,
+          "status": true,
+          "Humidity": 79.73,
+          "Pressure": 1.0168,
+          "Generic": 228.87
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.5,
+          "SystemSampleTime": "2021-01-14 00:00:57",
+          "BoardT": 17.9,
+          "AirP": 6328.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.0,
+        "status": true,
+        "gps_altitude": 7.45,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.8,
+        "gps_time": "2021-01-14 00:05:57",
+        "bdgcwb": {
+          "Temperature": 13.38,
+          "status": true,
+          "Humidity": 79.49,
+          "Pressure": 1.0168,
+          "Generic": 247.23
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.6,
+          "SystemSampleTime": "2021-01-14 00:05:58",
+          "BoardT": 18.5,
+          "AirP": 6354.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.98,
+        "status": true,
+        "gps_altitude": 7.42,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.8,
+        "gps_time": "2021-01-14 00:10:57",
+        "bdgcwb": {
+          "Temperature": 13.71,
+          "status": true,
+          "Humidity": 78.19,
+          "Pressure": 1.0169,
+          "Generic": 265.0
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.7,
+          "SystemSampleTime": "2021-01-14 00:10:58",
+          "BoardT": 19.1,
+          "AirP": 6378.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.01,
+        "status": true,
+        "gps_altitude": 7.43,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.83,
+        "gps_time": "2021-01-14 00:15:57",
+        "bdgcwb": {
+          "Temperature": 14.07,
+          "status": true,
+          "Humidity": 75.29,
+          "Pressure": 1.0169,
+          "Generic": 281.22
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 12.8,
+          "SystemSampleTime": "2021-01-14 00:15:58",
+          "BoardT": 19.7,
+          "AirP": 6377.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.99,
+        "status": true,
+        "gps_altitude": 7.44,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.83,
+        "gps_time": "2021-01-14 00:20:57",
+        "bdgcwb": {
+          "Temperature": 14.5,
+          "status": true,
+          "Humidity": 74.63,
+          "Pressure": 1.0169,
+          "Generic": 298.05
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 13.0,
+          "SystemSampleTime": "2021-01-14 00:20:57",
+          "BoardT": 20.4,
+          "AirP": 6336.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 23.98,
+        "status": true,
+        "gps_altitude": 7.51,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.84,
+        "gps_time": "2021-01-14 00:25:57",
+        "bdgcwb": {
+          "Temperature": 14.6,
+          "status": true,
+          "Humidity": 74.25,
+          "Pressure": 1.0169,
+          "Generic": 314.77
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 13.2,
+          "SystemSampleTime": "2021-01-14 00:25:58",
+          "BoardT": 21.0,
+          "AirP": 6386.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.01,
+        "status": true,
+        "gps_altitude": 7.53,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.87,
+        "gps_time": "2021-01-14 00:30:57",
+        "bdgcwb": {
+          "Temperature": 15.3,
+          "status": true,
+          "Humidity": 69.33,
+          "Pressure": 1.017,
+          "Generic": 330.61
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 13.5,
+          "SystemSampleTime": "2021-01-14 00:30:57",
+          "BoardT": 21.7,
+          "AirP": 6392.0
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75972,
+          25.15733
+        ]
+      },
+      "properties": {
+        "gps_heading": 24.01,
+        "status": true,
+        "gps_altitude": 7.51,
+        "bowcwb": {},
+        "lon": 121.75972,
+        "gps_spd_over_grnd_kts": 0.0,
+        "gps_spd_over_grnd_kmph": 0.0,
+        "heading": 24.89,
+        "gps_time": "2021-01-14 00:35:21",
+        "bdgcwb": {
+          "Temperature": 15.62,
+          "status": true,
+          "Humidity": 65.94,
+          "Pressure": 1.0169,
+          "Generic": 202.49
+        },
+        "lat": 25.15733,
+        "bowntu": {
+          "AirT": 13.9,
+          "SystemSampleTime": "2021-01-14 00:35:21",
+          "BoardT": 22.2,
+          "AirP": 6343.0
+        }
+      }
+    }
+  ],
+  "type": "FeatureCollection",
+  "hasPermission": true,
+  "cruise": {
+    "dTime": 300,
+    "timeFmt": "%Y-%m-%d %H:%M:%S",
+    "Name": "--",
+    "Departure": "2021-01-13 13:56:27",
+    "RV": "--",
+    "Return": "2021-01-14 01:56:27"
+  },
+  "timeFmt": "%Y-%m-%d %H:%M:%S",
+  "rvname": "",
+  "crname": "",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "crid": ""
+}
